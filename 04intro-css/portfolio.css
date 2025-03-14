@@ -1,0 +1,224 @@
+
+
+.nabla-heading { /* This is the original Nabla heading but it's givning me TROUBLLLEEEE */
+    font-family: "Poiret One", sans-serif;
+    background-color: #f9ece7;
+    font-size: 120px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+}
+
+.nabla-heading2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    margin-top: 3%;
+}
+
+.handjet-heading2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    font-style: normal;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
+}
+
+.handjet-heading3 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    font-variation-settings: 
+        "wght" 500,
+        "ELGR" 1,
+        "ELSH" 2;
+}
+
+/* this is a text box i made */
+.div1 {
+    padding: 10px;
+    
+    margin: calc(5vw + 10px); /* Flexible margin based on viewport width */
+    text-align: left;
+    border-style: double;
+    border-color: #6eb459;
+    border-radius: 15px 0px 15px 0px;
+    font-family: "Karma";
+    font-weight: 300;
+    font-style: normal;
+    color: #0b362f;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.div1 p {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.div1 dl {
+    padding: 1rem;
+    margin: 0;
+}
+
+.div1 dt {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #601561;
+}
+
+/* display flex and display flex wrap you gotta add em to the div1 */
+
+/* this is the center aligned version */
+.div2 {
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    border-style: double;
+    border-color: #85ff60;
+    font-family: "Karma";
+    font-weight: 300;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 1rem 0;
+    background-color: #f9ece7;
+    letter-spacing: .5px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-variation-settings:
+        "EDPT" 80,
+        "EHLT" 12;
+    text-align: center;
+}
+
+header span {
+    margin: 0;
+    color: #0b362f;
+    letter-spacing: .5px;
+}
+
+
+main {
+    background-color: #f9ece7;
+    padding: 2rem 0;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #0b362f;
+    font-weight: 700;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #0b362f;
+    font-weight: 700;
+    text-align: center;
+}
+
+main p {
+    background-color: #1fbf84;
+    font-family: "Karma";
+    font-weight: 300;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+body {
+    background-color: #1fbf84;
+    font-family: "Karma";
+    font-weight: 300;
+    font-style: normal;
+    color: #0b362f;
+    text-align: center;
+}
+
+nav {
+    font-family: "Poiret One", sans-serif;
+    background-color: #1fbf84;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 2.7rem;
+    text-decoration: none;
+    color: #0b362f;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav a:hover {
+    background-color: #148259;
+}
+
+nav .active a {
+ /*   background-color: #577cdb;*/
+ background-color: #81dbba;
+}
+
+dl {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+.poiret-one-regular {
+  font-size: 120px;
+  background-color: #f9ece7;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+footer {
+    margin-top: .5%;
+}
+
+div.gallery {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: 2rem;
+    padding: 0;
+}
+
